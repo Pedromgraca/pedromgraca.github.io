@@ -5,8 +5,28 @@
 
 }
 
+html, body {
+    min-height: 100%;
+}
+
+h1 {
+
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
 body {
     background: #ecf4fb;
+}
+
+a {
+    font-family: 'Courier New', Courier, monospace;
+    color: aquamarine;
+}
+
+a:visited {
+
+    color:rgba(154, 158, 176, 0.2)
 }
 
 .header {
@@ -16,6 +36,19 @@ body {
     background-color: #445566;
     text-align: center;
     padding: 20px;
+    
+}
+
+.footer {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #445566;
+    padding: 100px;
+    
 }
 
 .img-gallery {
