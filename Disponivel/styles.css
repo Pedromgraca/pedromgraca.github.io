@@ -85,3 +85,28 @@ body {
     font-size: 1.5rem;
     font-weight: 600;
   }
+
+  
+@media (max-width: 600px) {
+
+  h1 {
+      font-size: 2rem;
+  }
+  .header {
+  
+  font-size: 2rem;
+  text-align: center;
+  padding: 6% 0% 6% 0%;
+
+  }
+
+  h2{
+    font-size: 1.5rem;
+  }
+
+    .legenda {
+      font-size: 1rem;
+    }
+
+
+}
