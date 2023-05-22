@@ -19,13 +19,13 @@
 
 .imagem-corpo {
 
-  padding: 0 20% 3rem;
-  max-width: 800px;
+  padding: 0 17% 3rem;
+  max-width: 600px;
 }
 
 .texto-padrao {
 
-    padding: 0 18% 3rem;
+    padding: 0 18% 2.5rem;
 
 }
 
@@ -65,7 +65,7 @@ body {
     background-color: var(--cinza-escuro);
     color: var(--claro);
     font-family: var(--fonte-principal);
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 400;
     
 }
@@ -88,7 +88,7 @@ body {
     align-items: center;
     background-color: var(--cinza-escuro);
     margin: 10px;
-    font-size: 30px;
+    font-size: 1.5rem;
   }
 
   img {
@@ -131,5 +131,26 @@ body {
 
     font-size: 1rem;
   }
+
+}
+
+
+  
+@media (min-width: 1200px) {
+
+    
+.texto-padrao {
+
+  padding: 0 25% 2.5rem;
+
+}
+
+.imagem-corpo {
+
+  padding: 0 25% 2.5rem;
+
+}
+
+
 
 }
