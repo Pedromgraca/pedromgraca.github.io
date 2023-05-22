@@ -10,6 +10,15 @@ fazer caption no fullimg
     font-size: 1.5rem;
 }
 
+:root {
+    --fonte-principal: 'Courier New';
+    --azul-escuro: #445566;
+    --cinza-escuro: #3e3b3b;
+    --claro: #91a2b7;
+    --cor-link: #c8953d;
+}
+
+
 html, body {
     min-height: 100%;
 }
@@ -22,12 +31,12 @@ h1 {
 }
 
 body {
-    background: #ecf4fb;
+    background: var(--cinza-escuro);
 }
 
 a {
     font-family: 'Courier New', Courier, monospace;
-    color: rgb(114, 152, 183);
+    color: var(--cor-link);
     font-size: 1rem;
     text-decoration: none;
     
@@ -35,19 +44,20 @@ a {
 
 a:visited {
 
-    color:rgba(154, 158, 176, 0.2)
+    color: var(--cor-link);
 }
 
 .legenda {
 
     font-size: 0.75rem;
+    color: var(--claro);
 }
 
 .header {
-    color: white;
+    color: var(--claro);
     font-size: x-large;
     font-family: 'Courier New', Courier, monospace;
-    background-color: #445566;
+    background-color: var(--cinza-escuro);
     text-align: center;
     padding: 6% 0% 6% 0%;
     display: block;
@@ -58,10 +68,10 @@ a:visited {
     margin: 0px;
     display: flex;
     justify-content: center;
-    color: white;
+    color: var(--claro);
     font-size: x-large;
     font-family: 'Courier New', Courier, monospace;
-    background-color: #445566;
+    background-color: var(--cinza-escuro);
     padding: 4% 0% 2% 0%;
     display: block;
     
