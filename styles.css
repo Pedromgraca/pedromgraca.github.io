@@ -52,7 +52,12 @@ a:visited {
     font-size: 0.75rem;
     color: var(--claro);
 }
-
+.logo_small {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 .header {
     color: var(--claro);
     font-size: x-large;
