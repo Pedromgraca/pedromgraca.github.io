@@ -15,6 +15,10 @@
 
 .logo_small {
   max-width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .imagem-corpo {
@@ -26,6 +30,7 @@
 .texto-padrao {
 
     padding: 0 18% 2.5rem;
+    font-weight: 550;
 
 }
 
@@ -40,6 +45,7 @@ header {
 footer {
   padding: 2rem;
   padding-top: 0.2rem;
+
 }
 
 h1 {
@@ -57,9 +63,10 @@ p {
 a {
   font-family: 'Courier New', Courier, monospace;
   color: var(--cor-link);
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-decoration: none;
 }
+
 
 body {
     background-color: var(--cinza-escuro);
@@ -103,6 +110,7 @@ body {
     font-weight: 600;
     text-align: center;
     padding-bottom: 3rem;
+    font-style: italic;
   }
 
   
@@ -128,6 +136,11 @@ body {
     }
 
   p {
+
+    font-size: 1rem;
+  }
+
+  a {
 
     font-size: 1rem;
   }
