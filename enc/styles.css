@@ -149,6 +149,11 @@ body {
     font-size: 1.2rem;
   }
 
+  .texto-padrao {
+
+    padding: 0 4% 1.2rem;
+  
+  }
   .imagem-corpo {
 
     padding: 0 2% 2%;
