@@ -1,6 +1,4 @@
 /* 
-fazer root
-mudar px para rem
 fazer caption no fullimg
  */
 * {
@@ -13,9 +11,10 @@ fazer caption no fullimg
 :root {
     --fonte-principal: 'Courier New';
     --azul-escuro: #445566;
-    --cinza-escuro: #3e3b3b;
+    --cinza-escuro: #676781;
     --claro: #91a2b7;
     --cor-link: #c8953d;
+    --branco: #f7e8f1;
 }
 
 
@@ -31,7 +30,7 @@ h1 {
 }
 
 body {
-    background: var(--cinza-escuro);
+    background: var(--branco);
 }
 
 a {
@@ -50,7 +49,7 @@ a:visited {
 .legenda {
 
     font-size: 0.75rem;
-    color: var(--claro);
+    color: var(--cinza-escuro);
 }
 .logo_small {
     display: block;
@@ -59,10 +58,10 @@ a:visited {
     width: 50%;
   }
 .header {
-    color: var(--claro);
+    color: var(--cinza-escuro);
     font-size: x-large;
     font-family: 'Courier New', Courier, monospace;
-    background-color: var(--cinza-escuro);
+    background-color: var(--branco);
     text-align: center;
     padding: 6% 0% 6% 0%;
     display: block;
@@ -73,10 +72,10 @@ a:visited {
     margin: 0px;
     display: flex;
     justify-content: center;
-    color: var(--claro);
+    color: var(--cinza-escuro);
     font-size: x-large;
     font-family: 'Courier New', Courier, monospace;
-    background-color: var(--cinza-escuro);
+    background-color: var(--branco);
     padding: 4% 0% 2% 0%;
     display: block;
     
@@ -141,10 +140,10 @@ a:visited {
         font-size: 2rem;
     }
     .header {
-    color: white;
+    color: var(--cinza-escuro);
     font-size: 2rem;
     font-family: 'Courier New', Courier, monospace;
-    background-color: #445566;
+    background-color: var(--branco);
     text-align: center;
     padding: 6% 0% 6% 0%;
 
