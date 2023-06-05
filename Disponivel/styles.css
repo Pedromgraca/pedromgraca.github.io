@@ -2,9 +2,10 @@
 
   --fonte-principal: 'Courier New';
   --azul-escuro: #445566;
-  --cinza-escuro: #3e3b3b;
+  --cinza-escuro: #676781;
   --claro: #91a2b7;
   --cor-link: #c8953d;
+  --branco: #f7e8f1;
 
 }
 * {
@@ -62,8 +63,8 @@ text-decoration: none;
 }
 
 body {
-  background-color: var(--cinza-escuro);
-  color: var(--claro);
+  background-color: var(--branco);
+  color: var(--cinza-escuro);
   font-family: var(--fonte-principal);
   font-size: 1.8rem;
   font-weight: 400;
@@ -74,7 +75,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: var(--cinza-escuro);
+  background-color: var(--branco);
 }
 
 .header-style {
@@ -86,7 +87,7 @@ justify-content: center;
 
 .flex-container > div {
   align-items: center;
-  background-color: var(--cinza-escuro);
+  background-color: var(--branco);
   margin: 10px;
   font-size: 30px;
 }
